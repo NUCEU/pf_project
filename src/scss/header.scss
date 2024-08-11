@@ -1,0 +1,56 @@
+
+ 
+
+*a{
+	list-style: none;
+	text-decoration: none;
+	color: #202020;
+	text-decoration: none;
+}
+
+#logo{
+	font-size: 2rem;
+	padding-top: 3%;
+	font-family:'Courier New', Courier, monospace;
+	font-weight: 800;
+	
+}
+#gnb{
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.depth_1{
+		
+		padding: 0.4rem;
+		display: flex;
+		align-items: center;
+		
+		li{
+			
+			padding: 0.3rem;
+			align-items: center;
+			text-align: center;
+			margin-left: 2rem;
+			margin-right: 2rem;
+			a{
+				text-decoration: none;
+				font-weight: 800;
+				
+				
+			}
+		
+			.depth_2{
+				display: none;
+				font: size 0.1rem;;
+				padding-left: 0.1rem;
+			}
+		}
+		li:hover{
+			background-color: #ffccfa;
+			
+			border-radius: 15%;	
+		}	
+	}
+
+}
